@@ -5,8 +5,14 @@
   "manifest_version": 3,
   "background":{
   },
-  "content_scripts": [{
-    "matches": ["https://todoist.com/app/today"],
-    "js": ["clickPlus.js"]
-  }]
+  "content_scripts": [
+    {
+      "matches": ["https://todoist.com/app/today"],
+      "js": ["clickPlus.js"]
+    },
+    {
+      "matches":["https://todoist.com/app/filter/2237553880"],
+      "js":["noViewDate.js"]
+    }
+]
 }
