@@ -3,20 +3,44 @@
   "description": "",
   "version": "1.0",
   "manifest_version": 3,
-  "background":{
-  },
+  "background": {},
   "content_scripts": [
     {
-      "matches": ["https://todoist.com/app/today"],
-      "js": ["clickPlus.js"]
+      "matches": [
+        "https://todoist.com/app/today"
+      ],
+      "js": [
+        "units/clickPlus.js"
+      ]
     },
     {
-      "matches":["https://todoist.com/app/filter/2237553880"],
-      "js":["noViewDate.js"]
+      "matches": [
+        "https://todoist.com/app/filter/2237553880"
+      ],
+      "js": [
+        "units/noViewDate.js"
+      ]
     },
     {
-      "matches":["https://signin.aws.amazon.c/*"],
-      "js":["showPass.js"]
+      "matches": [
+        "https://signin.aws.amazon.c/*"
+      ],
+      "js": [
+        "units/showPass.js"
+      ]
+    },
+    {
+      "matches": [
+        "*://*.google.com/search*"
+      ],
+      "js": [
+        "deleteChromeAdd/deleter.js"
+      ]
     }
-]
+  ],
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "options_page": "options.html"
 }
