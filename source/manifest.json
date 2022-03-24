@@ -13,6 +13,10 @@
     {
       "matches":["https://todoist.com/app/filter/2237553880"],
       "js":["noViewDate.js"]
+    },
+    {
+      "matches":["https://signin.aws.amazon.c/*"],
+      "js":["showPass.js"]
     }
 ]
 }
