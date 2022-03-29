@@ -1,7 +1,7 @@
 
 
 var bt =document.createElement("button");
-bt.innerHTML="simplified";
+bt.innerHTML="simplify";
 bt.style.width="20%"
 bt.className="s-btn s-btn__primary"
 bt.addEventListener("click",clickEvent);
