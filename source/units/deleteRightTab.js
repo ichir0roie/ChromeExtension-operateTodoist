@@ -1,45 +1,23 @@
-console.log("run noViewDate.")
 
-const leftSideBar="left-sidebar";
-const rightSideBar="sidebar";
-const mainBar="mainbar";
 
-var done=false;
+var bt =document.createElement("button");
+bt.innerHTML="simplified";
+bt.style.width="20%"
+bt.className="s-btn s-btn__primary"
+bt.addEventListener("click",clickEvent);
 
-var mainElem=null;
-var waitMax=10;
+document.body.insertBefore(bt,document.body.firstChild);
 
-function sleep(msec) {
-    return new Promise(function(resolve) {
-       setTimeout(function() {resolve()}, msec);
-    })
- }
-
-async function waitElem(){
-    // console.log("wait start.");
-    var c=0;
-    while(c<waitMax){
-        mainElem=document.getElementById(mainBar);
-        if(mainElem != null){
-            // console.log("hit");
-            
-            hide();
-            c=waitMax;
-            break;
-        }
-        c+=1;
-        await sleep(1000);
-        // console.log("wait.");
-    }
+function clickEvent(e){
+    hide();
 }
 
 function hide() {
-    const leftElem=document.getElementById(leftSideBar);
-    const rightElem=document.getElementById(rightSideBar);
+    const leftElem=document.getElementById("left-sidebar");
+    const rightElem=document.getElementById("sidebar");
+    const mainElem=document.getElementById("mainbar");
     leftElem.parentNode.removeChild(leftElem);
     rightElem.parentNode.removeChild(rightElem);
     mainElem.style.width="100%";
-
+    bt.parentNode.removeChild(bt);
 }
-waitElem();
-
