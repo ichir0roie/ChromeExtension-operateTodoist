@@ -23,7 +23,7 @@
     },
     {
       "matches": [
-        "https://signin.aws.amazon.c/*"
+        "https://signin.aws.amazon.com/*"
       ],
       "js": [
         "units/showPass.js"
