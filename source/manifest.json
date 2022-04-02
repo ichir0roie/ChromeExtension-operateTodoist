@@ -36,6 +36,14 @@
       "js": [
         "deleteChromeAdd/deleter.js"
       ]
+    },
+    {
+      "matches": [
+        "https://stackoverflow.com/*"
+      ],
+      "js": [
+        "units/deleteRightTab.js"
+      ]
     }
   ],
   "permissions": [
