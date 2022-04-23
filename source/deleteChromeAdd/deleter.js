@@ -11,7 +11,7 @@ var background=style.backgroundColor;
 chrome.storage.sync.get({
     needJoke:true,
     jokeText:"✝ 悪・即・斬 ✝",
-    killIds:"taw,tvcap,bottomads"
+    killIds:"tvcap,bottomads"
 }, function (items) {
     needJoke = items.needJoke;
     jokeText = items.jokeText;    
