@@ -44,6 +44,14 @@
       "js": [
         "units/deleteRightTab.js"
       ]
+    },
+    {
+      "matches": [
+        "https://ncode.syosetu.com/n*"
+      ],
+      "js": [
+        "units/narouWideView.js"
+      ]
     }
   ],
   "permissions": [
