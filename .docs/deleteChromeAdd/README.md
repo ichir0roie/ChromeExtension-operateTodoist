@@ -1,13 +1,9 @@
 # delete chrome Ad
 
-もうがまんできない！
-まじでアイツら役に立たんし｡
-金払って表示するくらいなんだからちゃんと役に立つ情報を表示しろよな｡検索ワードに一致した有益な情報を表示しろよ｡
-マジで｡切れるぞ｡
+chromeの検索結果の広告を削除。
+chromeのエクステンション審査の方針により、
+正式にダウンロードできるエクスションでは再現不可。
 
-## 真面目な説明｡
-
-goolge chrome の検索結果の広告を削除｡←ここ大事｡非表示じゃなくて削除ね｡
 ![](.mdImages/README/20220225_185851.png)
 
 ## 備考
@@ -16,7 +12,6 @@ goolge chrome の検索結果の広告を削除｡←ここ大事｡非表示じ
 [参考](https://pc-more.fimplex.com/article/user_style_sheets_google_chrome/)  
 詳細は一番下｡
 
-しかし､広告部分を直接消すようなエクステンションはないらしい｡googleさんが公開させてくれないのかな？
 
 # how to use
 
@@ -28,20 +23,9 @@ goolge chrome の検索結果の広告を削除｡←ここ大事｡非表示じ
    1. ![](.mdImages/README/20220225_103857.png)
 2. デベロッパーになる
    1. ![](.mdImages/README/20220225_103717.png)
-3. 生のやつをロードする｡
+3. 生のファイルをロードする｡
    1. ![](.mdImages/README/20220225_103730.png)
-4. そして"manifest.json"が含まれるfolderを選択｡※つまりこのリポジトリ｡
-
-## crxから
-※
-だめだ｡他のchromeに入れようとするとpemエラーが出る｡  
-sourceから入れるしかないか､若干めんどくさいけど｡
-
-+ explorerでsource.crxをドラッグ
-+ chrome extensions ページにドロップ
-
-[参考](https://nmm.blog.jp/archives/23285335.html)  
-
+4. そして"manifest.json"が含まれるfolderを選択｡
 
 # 参考
 

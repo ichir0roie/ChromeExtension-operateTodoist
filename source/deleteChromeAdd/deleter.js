@@ -10,7 +10,7 @@ var background=style.backgroundColor;
 
 chrome.storage.sync.get({
     needJoke:true,
-    jokeText:"✝ 悪・即・斬 ✝",
+    jokeText:"Add is deleted.",
     killIds:"tvcap,bottomads"
 }, function (items) {
     needJoke = items.needJoke;
