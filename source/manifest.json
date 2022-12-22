@@ -31,14 +31,6 @@
     },
     {
       "matches": [
-        "https://signin.aws.amazon.com/*"
-      ],
-      "js": [
-        "units/showPass.js"
-      ]
-    },
-    {
-      "matches": [
         "*://*.google.com/search*"
       ],
       "js": [
