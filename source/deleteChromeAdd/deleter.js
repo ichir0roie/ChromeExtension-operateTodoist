@@ -10,7 +10,7 @@ var background=style.backgroundColor;
 
 chrome.storage.sync.get({
     needJoke:true,
-    jokeText:"Add is deleted.",
+    jokeText:"Ad were deleted.",
     killIds:"tvcap,bottomads"
 }, function (items) {
     needJoke = items.needJoke;
