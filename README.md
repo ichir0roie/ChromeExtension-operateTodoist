@@ -4,6 +4,8 @@
 
 ## delete chrome add
 
+※2024/01/08:適当なcss拡張機能で十分に実現可能だった。
+
 chromeの検索結果広告をすべて非表示にする。
 <https://github.com/ichir0roie/ChromeExtensionUtils/tree/main/.docs/deleteChromeAdd>
 
