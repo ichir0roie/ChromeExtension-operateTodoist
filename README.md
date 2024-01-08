@@ -11,6 +11,8 @@ chromeの検索結果広告をすべて非表示にする。
 
 ## operate todoist
 
+2024/01/08:最近のtodoistは機能が更に増えて大満足。
+
 + todayページを開くとadd task buttonをクリックするエクステンション｡
 
 <https://chrome.google.com/webstore/detail/todoist-for-chrome/jldhpllghnbhlbpcmnajkpdmadaolakh/related>
